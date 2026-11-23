@@ -15,7 +15,8 @@ drawings at the system font's size, line height and line length, with:
 - comma accents of one even length (Ș ț ķ ļ ņ ŗ ģ, ď ť ľ)
 
 Every other glyph is Inter's, Latin, Cyrillic and Greek alike. One variable font in roman and
-italic, weights 100 to 900 and optical sizes 14 to 32.
+italic, with optical sizes 14 to 32 and the system font's nine weights, Ultralight to Black, on its weight scale:
+1 to 810, with 400 regular, 600 semibold, 700 bold and 810 black.
 
 <p>
   <img src="images/poster-cyrillic.png" width="32%" alt="Zürich Sans in Cyrillic: Жж and the Cyrillic alphabet">
@@ -31,15 +32,15 @@ Fonts are in [`fonts/variable`](fonts/variable) (TrueType) and [`fonts/webfonts`
 @font-face {
   font-family: "Zürich Sans";
   src: url("ZurichSans[opsz,wght].woff2") format("woff2");
-  font-weight: 100 900;
+  font-weight: 1 810;
   font-style: normal;
 }
 ```
 
 - **Flemish & Dutch:** set `lang="nl-BE"` or `lang="nl"` and typed i + j becomes ĳ, and í j́ becomes ĳ with two
-  acutes. Loanwords such as *Beijing*, *Fiji* or *hijab*, and compounds such as *minijurk*, stay as two letters. To
-  keep any other word apart, put `&zwnj;` between the i and the j. The Ĳ and ĳ characters (U+0132, U+0133) always
-  use the new design.
+  acutes. Loanwords such as *Beijing*, *Fiji* or *hijab*, names such as *Elijah* or *Marija*, and compounds such as
+  *minijurk* stay as two letters. To keep any other word apart, put `&zwnj;` between the i and the j. The Ĳ and ĳ
+  characters (U+0132, U+0133) always use the new design.
 - **Bulgarian:** set `lang="bg"` and в г д ж з и й ѝ к л п т ц ш щ ъ ь ю Д Л take their Bulgarian forms. To use them
   without tagging the language, turn on `font-feature-settings: "ss09"`. Russian and every other language
   written in Cyrillic keep the standard forms.
