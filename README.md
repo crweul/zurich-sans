@@ -37,6 +37,10 @@ Fonts are in [`fonts/variable`](fonts/variable) (TrueType) and [`fonts/webfonts`
 }
 ```
 
+- **Apps:** the weights are the system font's nine, by name, where Apple's platforms read the system font's, so a
+  weight asked for finds its match and an SF Symbol beside the text takes its weight. For iOS's Bold Text setting,
+  set text in **Zürich Sans Bold Text** while it is on (`fonts/variable`): the same weights, each drawn as the
+  system font draws it under Bold Text.
 - **Flemish & Dutch:** set `lang="nl-BE"` or `lang="nl"` and typed i + j becomes ĳ, and í j́ becomes ĳ with two
   acutes. Loanwords such as *Beijing*, *Fiji* or *hijab*, names such as *Elijah* or *Marija*, and compounds such as
   *minijurk* stay as two letters. To keep any other word apart, put `&zwnj;` between the i and the j. The Ĳ and ĳ
