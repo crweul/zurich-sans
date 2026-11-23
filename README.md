@@ -40,7 +40,7 @@ Fonts are in [`fonts/variable`](fonts/variable) (TrueType) and [`fonts/webfonts`
   acutes. Loanwords such as *Beijing*, *Fiji* or *hijab*, and compounds such as *minijurk*, stay as two letters. To
   keep any other word apart, put `&zwnj;` between the i and the j. The Ĳ and ĳ characters (U+0132, U+0133) always
   use the new design.
-- **Bulgarian:** set `lang="bg"` and в г д ж з и й ѝ к л п т ц ш щ ю Д Л take their Bulgarian forms. To use them
+- **Bulgarian:** set `lang="bg"` and в г д ж з и й ѝ к л п т ц ш щ ъ ь ю Д Л take their Bulgarian forms. To use them
   without tagging the language, turn on `font-feature-settings: "ss09"`. Russian and every other language
   written in Cyrillic keep the standard forms.
 - **Serbian and Macedonian:** their alphabets are all here. Their own letterforms are cursive italic ones (б, г,
