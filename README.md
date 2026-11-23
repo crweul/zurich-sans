@@ -1,4 +1,4 @@
-![Zürich Sans: the name, Aa, and the alphabet with ẞ and ß](images/poster.png)
+![Zürich Sans: the name, Aa, the alphabet, ẞß Ðð Þþ Ĳĳ Ææ Œœ Øø and the figures](images/poster.png)
 
 # Zürich Sans
 
@@ -14,8 +14,14 @@ drawings at the system font's size, line height and line length, with:
   readers expect, in roman and italic, automatically in Bulgarian text
 - comma accents of one even length (Ș ț ķ ļ ņ ŗ ģ, ď ť ľ)
 
-Every other glyph is Inter's. One variable font in roman and italic, weights
-100 to 900 and optical sizes 14 to 32.
+Every other glyph is Inter's, Latin, Cyrillic and Greek alike. One variable font in roman and
+italic, weights 100 to 900 and optical sizes 14 to 32.
+
+<p>
+  <img src="images/poster-cyrillic.png" width="32%" alt="Zürich Sans in Cyrillic: Жж and the Cyrillic alphabet">
+  <img src="images/poster-cyrillic-alt.png" width="32%" alt="Zürich Sans in Cyrillic alt: Дд and the Bulgarian alphabet in its Bulgarian forms">
+  <img src="images/poster-greek.png" width="32%" alt="Zürich Sans in Greek: Ωω and the Greek alphabet">
+</p>
 
 ## Use
 
